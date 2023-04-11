@@ -1,0 +1,20 @@
+.container{
+  border-bottom: 3px solid rgb(0, 123, 255);
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+  color:rgb(84, 167, 255);
+}
+.input{
+  font-size: 18px;
+  padding: 10px;
+  border: 0px;
+  margin-bottom: 20px;
+  background-color: rgba(246, 246, 246, 0);
+  border-bottom: 2px solid rgb(84, 167, 255);
+}

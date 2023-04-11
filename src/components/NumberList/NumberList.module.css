@@ -1,0 +1,33 @@
+.title{
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border: 0px;
+  margin-bottom: 20px;
+  background-color: rgba(246, 246, 246, 0);
+  color: rgb(84, 167, 255);
+}
+.list{ 
+  padding: 0px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  color:rgb(84, 167, 255);
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: rgba(246, 246, 246, 0);
+}
+.button__delete{
+  align-items: start;
+  background-color: rgb(232, 232, 232);
+  border: 2px solid rgb(0, 123, 255);
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 10px;
+  color:rgb(0, 123, 255);
+}
+.button__delete:hover{
+  color: aliceblue;
+  background-color: rgb(0, 123, 255);
+}
