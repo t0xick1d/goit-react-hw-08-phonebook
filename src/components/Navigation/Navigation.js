@@ -5,7 +5,7 @@ import { UserMenu } from 'components/userMenu/UserMenu';
 import { useSelector } from 'react-redux';
 import style from './style.module.css';
 
-const AppBar = () => {
+const Navigation = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
   const AuthMenu = () => {
     return (
@@ -24,13 +24,14 @@ const AppBar = () => {
       <NavLink to="/" className={style.title}>
         Home
       </NavLink>
-      <NavLink to="/contacts" className={style.title}>
-        Contacts
-      </NavLink>
-
+      {isLoggedIn && (
+        <NavLink to="/contacts" className={style.title}>
+          Contacts
+        </NavLink>
+      )}
       {isLoggedIn ? <UserMenu /> : <AuthMenu />}
     </header>
   );
 };
 
-export default AppBar;
+export default Navigation;

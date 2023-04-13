@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import AppBar from './components/AppBar/AppBar';
+import Navigation from './components/Navigation/Navigation';
 import { Suspense } from 'react';
 
 export const Layout = () => {
   return (
     <div>
-      <AppBar />
+      <Navigation />
       <main>
         <Suspense fallback={<div>Loading page...</div>}>
           <Outlet />
