@@ -1,5 +1,6 @@
 .App__container{
   height: 150vh;
+  min-width: 762px;
   display: flex;
   justify-content: center;
   font-size: 30;

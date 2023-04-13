@@ -1,7 +1,7 @@
 import ItemList from './ItemList';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchItem, deleteContact } from 'redux-store/operetions';
+import { fetchItem, deleteContact } from 'redux-store/contacts/operetions';
 
 import style from './NumberList.module.css';
 

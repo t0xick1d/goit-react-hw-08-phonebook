@@ -1,0 +1,35 @@
+.Login__title{
+  font-size: 40;
+  text-transform: uppercase;
+  color: rgb(0, 123, 255);
+  padding: 5px;
+  margin-bottom: 5px;
+  margin: 10px;
+}
+.input__form{
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  border: 0px;
+  margin-bottom: 20px;
+  background-color: rgba(246, 246, 246, 0);
+  border-bottom: 2px solid rgb(84, 167, 255);
+}
+
+.form__button{
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+  margin: 0 auto;
+
+  background-color: rgb(232, 232, 232);
+  border: 2px solid rgb(0, 123, 255);
+  border-radius: 5px;
+  padding: 10px;
+  color:rgb(0, 123, 255);
+}
+
+.form__button:hover{
+  color: aliceblue;
+  background-color: rgb(0, 123, 255);
+}
